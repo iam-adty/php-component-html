@@ -2,16 +2,25 @@
 
 use IamAdty\Component\Html\HtmlTagBuilderTrait;
 use IamAdty\Component;
+use IamAdty\Component\Html\Attribute;
 
 class Html extends Component
 {
     protected $tag = "html";
-
     protected $selfClose = false;
-
     protected $attribute = [];
 
-    protected $config = [];
+    protected $docType = "html";
+
+    protected function paramType()
+    {
+        return array_merge(
+            parent::paramType(),
+            [
+                'attribute' => Attribute::class
+            ]
+        );
+    }
 
     protected function tagTemplate($tag = "", $content = "", $attribute = "")
     {
@@ -22,10 +31,35 @@ class Html extends Component
         }
     }
 
+    protected function compileAttribute()
+    {
+        $result = "";
+        foreach ($this->attribute as $attribute) {
+            /** @var Attribute $attribute */
+            $result .= " " . $attribute->compile();
+        }
+        return $result;
+    }
+
     public function compile()
     {
+        $result = "";
+
+        $attribute = $this->compileAttribute();
         $content = parent::compile();
-        return $this->tagTemplate($this->tag, $content);
+
+        if ($this->tag == "html") {
+            $result .= "<!doctype {$this->docType}>";
+        }
+
+        $result .= $this->tagTemplate($this->tag, $content, $attribute);
+
+        return $result;
+    }
+
+    public function render()
+    {
+        echo parent::render();
     }
 
     use HtmlTagBuilderTrait;
