@@ -1,5 +1,5 @@
 {
-    "name": "iam-adty/php-web-component",
+    "name": "iam-adty/php-component-html",
     "description": "PHP web component",
     "type": "library",
     "license": "MIT",
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "iam-adty/php-variable": "dev-develop",
+        "iam-adty/php-component": "dev-develop",
         "matthiasmullie/minify": "^1.3"
     },
     "autoload": {
