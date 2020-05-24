@@ -4,7 +4,7 @@ use IamAdty\Component\Html;
 
 class Head extends Html
 {
-    protected $tag = "head";
+    protected $tag = 'head';
 
     use HtmlTagBuilderTrait;
 }

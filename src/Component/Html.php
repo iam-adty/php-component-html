@@ -57,10 +57,5 @@ class Html extends Component
         return $result;
     }
 
-    public function render()
-    {
-        echo parent::render();
-    }
-
     use HtmlTagBuilderTrait;
 }

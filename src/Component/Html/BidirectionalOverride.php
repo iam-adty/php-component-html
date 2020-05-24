@@ -2,9 +2,9 @@
 
 use IamAdty\Component\Html;
 
-class Body extends Html
+class BidirectionalOverride extends Html
 {
-    protected $tag = 'body';
+    protected $tag = 'bdo';
 
     use HtmlTagBuilderTrait;
 }

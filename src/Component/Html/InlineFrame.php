@@ -2,9 +2,9 @@
 
 use IamAdty\Component\Html;
 
-class Body extends Html
+class InlineFrame extends Html
 {
-    protected $tag = 'body';
+    protected $tag = 'iframe';
 
     use HtmlTagBuilderTrait;
 }

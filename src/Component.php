@@ -40,6 +40,8 @@ class Component
         foreach ($this->children as $children) {
             if (is_subclass_of($children, Component::class)) {
                 $result .= $children->compile();
+            } else {
+                $result .= $children;
             }
         }
         return $result;
