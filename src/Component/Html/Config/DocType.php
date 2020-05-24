@@ -5,7 +5,7 @@ use IamAdty\Config\ConfigTrait;
 
 class DocType extends Config
 {
-    public $name = "docType";
+    protected $name = "docType";
 
     use ConfigTrait;
 }

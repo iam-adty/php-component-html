@@ -2,9 +2,9 @@
 
 use IamAdty\Component\Html;
 
-class Body extends Html
+class DataGrid extends Html
 {
-    protected $tag = 'body';
+    protected $tag = 'datagrid';
 
     use HtmlTagBuilderTrait;
 }

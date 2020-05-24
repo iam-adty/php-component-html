@@ -1,11 +1,11 @@
-<?php namespace IamAdty\Component\Html\Body;
+<?php namespace IamAdty\Component\Html\Table;
 
 use IamAdty\Component\Html;
 use IamAdty\Component\Html\HtmlTagBuilderTrait;
 
-class Div extends Html
+class Row extends Html
 {
-    protected $tag = "div";
+    protected $tag = 'tr';
 
     use HtmlTagBuilderTrait;
 }

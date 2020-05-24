@@ -2,9 +2,9 @@
 
 use IamAdty\Component\Html;
 
-class Body extends Html
+class NoFrames extends Html
 {
-    protected $tag = 'body';
+    protected $tag = 'nofames';
 
     use HtmlTagBuilderTrait;
 }

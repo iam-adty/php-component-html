@@ -2,9 +2,9 @@
 
 use IamAdty\Component\Html;
 
-class Body extends Html
+class Table extends Html
 {
-    protected $tag = 'body';
+    protected $tag = 'table';
 
     use HtmlTagBuilderTrait;
 }

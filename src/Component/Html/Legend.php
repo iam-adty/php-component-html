@@ -2,9 +2,9 @@
 
 use IamAdty\Component\Html;
 
-class Body extends Html
+class Legend extends Html
 {
-    protected $tag = 'body';
+    protected $tag = 'legend';
 
     use HtmlTagBuilderTrait;
 }

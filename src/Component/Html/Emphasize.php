@@ -2,9 +2,9 @@
 
 use IamAdty\Component\Html;
 
-class Body extends Html
+class Emphasize extends Html
 {
-    protected $tag = 'body';
+    protected $tag = 'em';
 
     use HtmlTagBuilderTrait;
 }
