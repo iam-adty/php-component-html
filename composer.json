@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "IamAdty\\": "src/"
+            "IamAdty\\Component\\": "src/"
         }
     },
     "minimum-stability": "dev",
