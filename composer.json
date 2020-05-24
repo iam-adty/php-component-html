@@ -1,6 +1,6 @@
 {
     "name": "iam-adty/php-component-html",
-    "description": "PHP web component",
+    "description": "Create html with PHP Component",
     "type": "library",
     "license": "MIT",
     "authors": [
