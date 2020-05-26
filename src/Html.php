@@ -21,48 +21,39 @@ class Html extends Component
         }
     }
 
-    protected function paramType()
+    protected function _paramType()
     {
         return array_merge(
-            parent::paramType(),
+            parent::_paramType(),
             [
                 'attribute' => Attribute::class
             ]
         );
     }
 
-    protected function tagTemplate($tag = "", $content = "", $attribute = "")
+    public function construct()
     {
-        if ($this->selfClose) {
-            return "<{$tag}{$attribute} />";
-        } else {
-            return "<{$tag}{$attribute}>{$content}</$tag>";
+        $result = "";
+        if ($this->tag == "html") {
+            $result .= "<!doctype {$this->docType}>";
         }
+
+        if ($this->selfClose) {
+            $result .= "<{$this->tag}{${$this->_constructAttribute()}} />";
+        } else {
+            $result .= "<{$this->tag}{${$this->_constructAttribute()}}>{${parent::_constructChildren()}}</$this->tag>";
+        }
+
+        return $result;
     }
 
-    protected function compileAttribute()
+    protected function _constructAttribute()
     {
         $result = "";
         foreach ($this->attribute as $attribute) {
             /** @var Attribute $attribute */
             $result .= " " . $attribute->compile();
         }
-        return $result;
-    }
-
-    public function compile()
-    {
-        $result = "";
-
-        $attribute = $this->compileAttribute();
-        $content = parent::compile();
-
-        if ($this->tag == "html") {
-            $result .= "<!doctype {$this->docType}>";
-        }
-
-        $result .= $this->tagTemplate($this->tag, $content, $attribute);
-
         return $result;
     }
 
