@@ -3,7 +3,7 @@
 use IamAdty\Component\Html\Attribute;
 
 class Action extends Attribute{
-	public $name = 'action';
+	protected $name = 'action';
 
 	use AttributeTrait;
 }

@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class AutoFocus extends Attribute
 {
-	public $name = 'autofocus';
+	protected $name = 'autofocus';
 
 	use AttributeTrait;
 }

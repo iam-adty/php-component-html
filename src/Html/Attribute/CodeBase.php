@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class CodeBse extends Attribute
 {
-	public $name = 'codebase';
+	protected $name = 'codebase';
 
 	use AttributeTrait;
 }

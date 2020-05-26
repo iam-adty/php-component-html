@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Height extends Attribute
 {
-	public $name = 'height';
+	protected $name = 'height';
 
 	use AttributeTrait;
 }

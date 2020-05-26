@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class InputMode extends Attribute
 {
-	public $name = 'inputmode';
+	protected $name = 'inputmode';
 
 	use AttributeTrait;
 }

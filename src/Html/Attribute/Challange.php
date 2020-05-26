@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Challange extends Attribute
 {
-	public $name = 'challange';
+	protected $name = 'challange';
 
 	use AttributeTrait;
 }

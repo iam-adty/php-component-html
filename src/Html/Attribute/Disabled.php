@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Disabled extends Attribute
 {
-	public $name = 'disabled';
+	protected $name = 'disabled';
 
 	use AttributeTrait;
 }

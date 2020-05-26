@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Span extends Attribute
 {
-    public $name = 'span';
+    protected $name = 'span';
 
     use AttributeTrait;
 }

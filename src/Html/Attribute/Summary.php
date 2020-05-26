@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Summary extends Attribute
 {
-    public $name = 'summary';
+    protected $name = 'summary';
 
     use AttributeTrait;
 }

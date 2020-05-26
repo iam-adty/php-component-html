@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Cite extends Attribute
 {
-	public $name = 'cite';
+	protected $name = 'cite';
 
 	use AttributeTrait;
 }

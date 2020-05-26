@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Loading extends Attribute
 {
-	public $name = 'loading';
+	protected $name = 'loading';
 
 	use AttributeTrait;
 }

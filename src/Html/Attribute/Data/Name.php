@@ -1,11 +1,11 @@
 <?php namespace IamAdty\Component\Html\Attribute\Data;
 
-class Name
-{
-	public $name = '';
+use IamAdty\Config;
+use IamAdty\Config\ConfigTrait;
 
-	public function __construct($name = '')
-	{
-		$this->name = $name;
-	}
+class Name extends Config
+{
+    protected $name = 'name';
+
+    use ConfigTrait;
 }

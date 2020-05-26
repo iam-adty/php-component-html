@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Step extends Attribute
 {
-    public $name = 'step';
+    protected $name = 'step';
 
     use AttributeTrait;
 }

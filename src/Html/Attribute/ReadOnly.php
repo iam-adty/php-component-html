@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class ReadOnly extends Attribute
 {
-	public $name = 'readonly';
+	protected $name = 'readonly';
 
 	use AttributeTrait;
 }

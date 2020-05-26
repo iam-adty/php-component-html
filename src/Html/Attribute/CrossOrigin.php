@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class CrossOrigin extends Attribute
 {
-	public $name = 'crossorigin';
+	protected $name = 'crossorigin';
 
 	use AttributeTrait;
 }

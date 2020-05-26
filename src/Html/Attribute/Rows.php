@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Rows extends Attribute
 {
-	public $name = 'rows';
+	protected $name = 'rows';
 
 	use AttributeTrait;
 }

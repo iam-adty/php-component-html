@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class MinLength extends Attribute
 {
-	public $name = 'minlength';
+	protected $name = 'minlength';
 
 	use AttributeTrait;
 }

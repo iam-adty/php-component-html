@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Importance extends Attribute
 {
-	public $name = 'importance';
+	protected $name = 'importance';
 
 	use AttributeTrait;
 }

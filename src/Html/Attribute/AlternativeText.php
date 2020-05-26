@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class AlternativeText extends Attribute
 {
-	public $name = 'alt';
+	protected $name = 'alt';
 
 	use AttributeTrait;
 }

@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Default_ extends Attribute
 {
-	public $name = 'default';
+	protected $name = 'default';
 
 	use AttributeTrait;
 }

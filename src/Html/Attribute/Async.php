@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Async extends Attribute
 {
-	public $name = 'async';
+	protected $name = 'async';
 
 	use AttributeTrait;
 }

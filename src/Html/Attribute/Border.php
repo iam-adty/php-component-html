@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Border extends Attribute
 {
-	public $name = 'border';
+	protected $name = 'border';
 
 	use AttributeTrait;
 }

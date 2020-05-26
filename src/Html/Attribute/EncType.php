@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class EncType extends Attribute
 {
-	public $name = 'enctype';
+	protected $name = 'enctype';
 
 	use AttributeTrait;
 }

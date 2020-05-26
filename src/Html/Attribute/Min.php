@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Min extends Attribute
 {
-	public $name = 'min';
+	protected $name = 'min';
 
 	use AttributeTrait;
 }

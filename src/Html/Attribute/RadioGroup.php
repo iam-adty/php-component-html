@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class RadioGroup extends Attribute
 {
-	public $name = 'radiogroup';
+	protected $name = 'radiogroup';
 
 	use AttributeTrait;
 }

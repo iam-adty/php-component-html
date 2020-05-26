@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Defer extends Attribute
 {
-	public $name = 'defer';
+	protected $name = 'defer';
 
 	use AttributeTrait;
 }

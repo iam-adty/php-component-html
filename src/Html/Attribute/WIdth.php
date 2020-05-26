@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Width extends Attribute
 {
-    public $name = 'width';
+    protected $name = 'width';
 
     use AttributeTrait;
 }

@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class AccessKey extends Attribute
 {
-	public $name = 'accesskey';
+	protected $name = 'accesskey';
 
 	use AttributeTrait;
 }

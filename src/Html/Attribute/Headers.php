@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Headers extends Attribute
 {
-	public $name = 'headers';
+	protected $name = 'headers';
 
 	use AttributeTrait;
 }

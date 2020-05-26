@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Multiple extends Attribute
 {
-	public $name = 'multiple';
+	protected $name = 'multiple';
 
 	use AttributeTrait;
 }

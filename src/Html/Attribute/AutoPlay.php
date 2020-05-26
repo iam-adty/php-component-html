@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class AutoPlay extends Attribute
 {
-	public $name = 'autoplay';
+	protected $name = 'autoplay';
 
 	use AttributeTrait;
 }

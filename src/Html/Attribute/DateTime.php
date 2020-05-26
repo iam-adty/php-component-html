@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class DateTime extends Attribute
 {
-	public $name = 'datetime';
+	protected $name = 'datetime';
 
 	use AttributeTrait;
 }

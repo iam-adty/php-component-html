@@ -12,6 +12,15 @@ class Html extends Component
 
     protected $docType = "html";
 
+    public function __construct(...$params)
+    {
+        parent::__construct(...$params);
+
+        if ($this->tag != "html") {
+            unset($this->docType);
+        }
+    }
+
     protected function paramType()
     {
         return array_merge(

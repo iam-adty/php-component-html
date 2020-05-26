@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Poster extends Attribute
 {
-	public $name = 'poster';
+	protected $name = 'poster';
 
 	use AttributeTrait;
 }

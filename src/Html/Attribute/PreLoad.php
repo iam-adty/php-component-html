@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class PreLoad extends Attribute
 {
-	public $name = 'preload';
+	protected $name = 'preload';
 
 	use AttributeTrait;
 }

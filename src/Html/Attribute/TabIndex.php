@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class TabIndex extends Attribute
 {
-    public $name = 'tabindex';
+    protected $name = 'tabindex';
 
     use AttributeTrait;
 }

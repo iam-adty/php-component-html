@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class NoValidate extends Attribute
 {
-	public $name = 'novalidate';
+	protected $name = 'novalidate';
 
 	use AttributeTrait;
 }

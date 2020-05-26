@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Muted extends Attribute
 {
-	public $name = 'muted';
+	protected $name = 'muted';
 
 	use AttributeTrait;
 }

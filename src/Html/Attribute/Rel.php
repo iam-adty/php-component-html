@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Rel extends Attribute
 {
-	public $name = 'rel';
+	protected $name = 'rel';
 
 	use AttributeTrait;
 }

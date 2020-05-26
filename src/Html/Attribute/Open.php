@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Open extends Attribute
 {
-	public $name = 'open';
+	protected $name = 'open';
 
 	use AttributeTrait;
 }

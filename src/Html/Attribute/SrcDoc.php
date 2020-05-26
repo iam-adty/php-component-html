@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class SrcDoc extends Attribute
 {
-    public $name = 'srcdoc';
+    protected $name = 'srcdoc';
 
     use AttributeTrait;
 }

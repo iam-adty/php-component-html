@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class SrcSet extends Attribute
 {
-    public $name = 'srcset';
+    protected $name = 'srcset';
 
     use AttributeTrait;
 }

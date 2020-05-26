@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class IntrinsicSize extends Attribute
 {
-	public $name = 'intrinsicsize';
+	protected $name = 'intrinsicsize';
 
 	use AttributeTrait;
 }

@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Optimum extends Attribute
 {
-	public $name = 'optimum';
+	protected $name = 'optimum';
 
 	use AttributeTrait;
 }

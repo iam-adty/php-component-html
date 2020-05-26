@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class FormNoValidate extends Attribute
 {
-	public $name = 'formnovalidate';
+	protected $name = 'formnovalidate';
 
 	use AttributeTrait;
 }

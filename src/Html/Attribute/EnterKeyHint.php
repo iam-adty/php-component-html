@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class EnterKeyHint extends Attribute
 {
-	public $name = 'enterkeyhint';
+	protected $name = 'enterkeyhint';
 
 	use AttributeTrait;
 }

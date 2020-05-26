@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Shape extends Attribute
 {
-	public $name = 'shape';
+	protected $name = 'shape';
 
 	use AttributeTrait;
 }

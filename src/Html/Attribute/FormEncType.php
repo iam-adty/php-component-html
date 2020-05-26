@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class FormEncType extends Attribute
 {
-	public $name = 'formenctype';
+	protected $name = 'formenctype';
 
 	use AttributeTrait;
 }

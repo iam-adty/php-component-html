@@ -5,7 +5,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Style extends Attribute
 {
-	public $name = 'style';
+	protected $name = 'style';
 
 	public function __construct(...$params)
 	{

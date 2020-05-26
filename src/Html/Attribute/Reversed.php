@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Reversed extends Attribute
 {
-	public $name = 'reversed';
+	protected $name = 'reversed';
 
 	use AttributeTrait;
 }

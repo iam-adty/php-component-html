@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Align extends Attribute
 {
-	public $name = 'align';
+	protected $name = 'align';
 
 	use AttributeTrait;
 }

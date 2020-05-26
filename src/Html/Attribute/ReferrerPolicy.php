@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class ReferrerPolicy extends Attribute
 {
-	public $name = 'referrerpolicy';
+	protected $name = 'referrerpolicy';
 
 	use AttributeTrait;
 }

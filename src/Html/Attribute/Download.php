@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Download extends Attribute
 {
-	public $name = 'download';
+	protected $name = 'download';
 
 	use AttributeTrait;
 }

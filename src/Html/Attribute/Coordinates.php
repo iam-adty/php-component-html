@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Coordinates extends Attribute
 {
-	public $name = 'coords';
+	protected $name = 'coords';
 
 	use AttributeTrait;
 }

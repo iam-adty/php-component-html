@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Controls extends Attribute
 {
-	public $name = 'controls';
+	protected $name = 'controls';
 
 	use AttributeTrait;
 }

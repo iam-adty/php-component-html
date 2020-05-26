@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class SrcLang extends Attribute
 {
-    public $name = 'srclang';
+    protected $name = 'srclang';
 
     use AttributeTrait;
 }

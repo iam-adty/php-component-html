@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class IsMap extends Attribute
 {
-	public $name = 'ismap';
+	protected $name = 'ismap';
 
 	use AttributeTrait;
 }

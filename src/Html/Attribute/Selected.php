@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Selected extends Attribute
 {
-	public $name = 'selected';
+	protected $name = 'selected';
 
 	use AttributeTrait;
 }

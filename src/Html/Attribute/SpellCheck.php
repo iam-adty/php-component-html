@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class SpellCheck extends Attribute
 {
-    public $name = 'spellcheck';
+    protected $name = 'spellcheck';
 
     use AttributeTrait;
 }

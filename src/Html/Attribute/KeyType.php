@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class KeyType extends Attribute
 {
-	public $name = 'keytype';
+	protected $name = 'keytype';
 
 	use AttributeTrait;
 }

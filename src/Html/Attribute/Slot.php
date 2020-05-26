@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Slot extends Attribute
 {
-    public $name = 'slot';
+    protected $name = 'slot';
 
     use AttributeTrait;
 }

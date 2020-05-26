@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Buffered extends Attribute
 {
-	public $name = 'buffered';
+	protected $name = 'buffered';
 
 	use AttributeTrait;
 }

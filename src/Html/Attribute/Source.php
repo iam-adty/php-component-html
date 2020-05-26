@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Source extends Attribute
 {
-    public $name = 'src';
+    protected $name = 'src';
 
     use AttributeTrait;
 }

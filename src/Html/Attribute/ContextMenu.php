@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class ContextMenu extends Attribute
 {
-	public $name = 'contextmenu';
+	protected $name = 'contextmenu';
 
 	use AttributeTrait;
 }

@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Wrap extends Attribute
 {
-    public $name = 'wrap';
+    protected $name = 'wrap';
 
     use AttributeTrait;
 }

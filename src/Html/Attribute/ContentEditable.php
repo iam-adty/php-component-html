@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class ContentEditable extends Attribute
 {
-	public $name = 'contenteditable';
+	protected $name = 'contenteditable';
 
 	use AttributeTrait;
 }

@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Method extends Attribute
 {
-	public $name = 'method';
+	protected $name = 'method';
 
 	use AttributeTrait;
 }

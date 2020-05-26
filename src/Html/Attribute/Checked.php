@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Checked extends Attribute
 {
-	public $name = 'checked';
+	protected $name = 'checked';
 
 	use AttributeTrait;
 }

@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Cols extends Attribute
 {
-	public $name = 'cols';
+	protected $name = 'cols';
 
 	use AttributeTrait;
 }

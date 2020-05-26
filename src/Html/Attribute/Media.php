@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Media extends Attribute
 {
-	public $name = 'media';
+	protected $name = 'media';
 
 	use AttributeTrait;
 }

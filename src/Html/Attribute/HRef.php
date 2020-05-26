@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class HRef extends Attribute
 {
-	public $name = 'href';
+	protected $name = 'href';
 
 	use AttributeTrait;
 }

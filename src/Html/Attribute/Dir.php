@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Dir extends Attribute
 {
-	public $name = 'dir';
+	protected $name = 'dir';
 
 	use AttributeTrait;
 }

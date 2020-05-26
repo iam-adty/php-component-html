@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class PlaceHolder extends Attribute
 {
-	public $name = 'placeholder';
+	protected $name = 'placeholder';
 
 	use AttributeTrait;
 }

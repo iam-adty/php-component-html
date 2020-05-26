@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Scope extends Attribute
 {
-	public $name = 'scope';
+	protected $name = 'scope';
 
 	use AttributeTrait;
 }

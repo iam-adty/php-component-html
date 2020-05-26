@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class AcceptCharset extends Attribute
 {
-    public $name = 'accept-charset';
+    protected $name = 'accept-charset';
 
     use AttributeTrait;
 }

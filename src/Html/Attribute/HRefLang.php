@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class HRefLang extends Attribute
 {
-	public $name = 'hreflang';
+	protected $name = 'hreflang';
 
 	use AttributeTrait;
 }

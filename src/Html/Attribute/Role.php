@@ -2,9 +2,9 @@
 
 use IamAdty\Component\Html\Attribute;
 
-class ItemProp extends Attribute
+class Role extends Attribute
 {
-	protected $name = 'itemprop';
+    protected $name = "role";
 
-	use AttributeTrait;
+    use AttributeTrait;
 }

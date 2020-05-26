@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Decoding extends Attribute
 {
-	public $name = 'decoding';
+	protected $name = 'decoding';
 
 	use AttributeTrait;
 }

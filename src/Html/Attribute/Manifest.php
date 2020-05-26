@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Manifest extends Attribute
 {
-	public $name = 'manifest';
+	protected $name = 'manifest';
 
 	use AttributeTrait;
 }

@@ -1,11 +1,11 @@
 <?php namespace IamAdty\Component\Html\Attribute\Data;
 
-class Value
-{
-	public $value = null;
+use IamAdty\Config;
+use IamAdty\Config\ConfigTrait;
 
-	public function __construct($value = null)
-	{
-		$this->value = $value;
-	}
+class Value extends Config
+{
+    protected $name = "value";
+
+	use ConfigTrait;
 }

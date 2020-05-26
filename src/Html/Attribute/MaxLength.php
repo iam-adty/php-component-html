@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class MaxLength extends Attribute
 {
-	public $name = 'maxlength';
+	protected $name = 'maxlength';
 
 	use AttributeTrait;
 }

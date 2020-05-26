@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Allow extends Attribute
 {
-	public $name = 'allow';
+	protected $name = 'allow';
 
 	use AttributeTrait;
 }

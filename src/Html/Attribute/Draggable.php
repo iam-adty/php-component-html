@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Draggable extends Attribute
 {
-	public $name = 'draggable';
+	protected $name = 'draggable';
 
 	use AttributeTrait;
 }

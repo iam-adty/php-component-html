@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Csp extends Attribute
 {
-	public $name = 'csp';
+	protected $name = 'csp';
 
 	use AttributeTrait;
 }

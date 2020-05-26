@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class RowSpan extends Attribute
 {
-	public $name = 'rowspan';
+	protected $name = 'rowspan';
 
 	use AttributeTrait;
 }

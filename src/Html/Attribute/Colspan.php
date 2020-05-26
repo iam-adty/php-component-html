@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Colspan extends Attribute
 {
-	public $name = 'colspan';
+	protected $name = 'colspan';
 
 	use AttributeTrait;
 }

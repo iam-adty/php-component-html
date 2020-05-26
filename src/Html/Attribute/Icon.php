@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Icon extends Attribute
 {
-	public $name = 'icon';
+	protected $name = 'icon';
 
 	use AttributeTrait;
 }

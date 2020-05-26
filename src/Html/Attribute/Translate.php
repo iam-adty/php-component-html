@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Translate extends Attribute
 {
-    public $name = 'translate';
+    protected $name = 'translate';
 
     use AttributeTrait;
 }

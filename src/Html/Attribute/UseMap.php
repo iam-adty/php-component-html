@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class UseMap extends Attribute
 {
-    public $name = 'usemap';
+    protected $name = 'usemap';
 
     use AttributeTrait;
 }

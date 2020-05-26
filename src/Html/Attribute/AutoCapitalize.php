@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class AutoCapitalize extends Attribute
 {
-	public $name = 'autocapitalize';
+	protected $name = 'autocapitalize';
 
 	use AttributeTrait;
 }

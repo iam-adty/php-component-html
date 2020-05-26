@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Ping extends Attribute
 {
-	public $name = 'ping';
+	protected $name = 'ping';
 
 	use AttributeTrait;
 }

@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class BackgroundColor extends Attribute
 {
-	public $name = 'bgcolor';
+	protected $name = 'bgcolor';
 
 	use AttributeTrait;
 }

@@ -4,7 +4,7 @@ use IamAdty\Component\Html\Attribute;
 
 class Loop extends Attribute
 {
-	public $name = 'loop';
+	protected $name = 'loop';
 
 	use AttributeTrait;
 }

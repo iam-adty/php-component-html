@@ -1,4 +1,4 @@
-<?php namespace IamAdty\Component\Html;
+<?php namespace IamAdty\Component\Html\Attribute;
 
 trait DefinedAttributeTrait
 {
